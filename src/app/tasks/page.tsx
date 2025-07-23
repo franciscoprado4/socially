@@ -1,4 +1,4 @@
-async function TaskPage() {
+export default async function TaskPage() {
   const response = await fetch("http://localhost:3000/api/tasks", {
     cache: "no-store",
   });
